@@ -263,7 +263,7 @@ storiesOf( 'Analytics Module', module )
 			</WithTestRegistry>
 		);
 	},
-	{ options: { readySelector: '.googlesitekit-line-chart > div[style="position: relative;"]' } } )
+	{ options: { readySelector: '.googlesitekit-chart > div[style="position: relative;"]' } } )
 	.add( 'Top Acquisition Pie Chart', () => {
 		global._googlesitekitLegacyData = analyticsData;
 
@@ -310,4 +310,4 @@ storiesOf( 'Analytics Module', module )
 			</WithTestRegistry>
 		);
 	},
-	{ options: { readySelector: '.googlesitekit-line-chart > div[style="position: relative;"]' } } );
+	{ options: { readySelector: '.googlesitekit-chart > div[style="position: relative;"]' } } );
